@@ -1,0 +1,270 @@
+body {
+    background: #ff8b39;
+    min-width: 750px;
+    min-height: 90px;
+}
+
+#txtBarkod, #txtBarkodM {
+    padding: 5px;
+    background: #212529;
+    color: white;
+    font-weight: 900;
+}
+
+#textAreaID {
+    width: 100%;
+    text-align: justify;
+    float: left;
+    padding-top: 5px;
+}
+
+#textAreaID #copy1 {
+    font-weight: bold;
+    display: initial;
+    font-size: 25px;
+}
+
+#textAreaID #fyt {
+    font-weight: bold;
+    display: initial;
+    text-align: right;
+}
+
+#denemeyeri {
+    border: 2px solid black;
+    padding: 2px;
+    float: left;
+    width: 100%;
+}
+
+#fiyatlar {
+    width: 100%;
+    text-align: right;
+}
+
+#fiyatlar p {
+    font-weight: bold;
+    display: initial;
+    line-height: 3;
+}
+
+#header1 ul {
+    width: 100%;
+    min-height: 15px;
+    padding: 0;
+    margin: 15px auto;
+}
+
+#header1 ul li {
+    float: left;
+    list-style: none;
+    display: contents;
+    padding: 0 10px;
+}
+
+#header1 ul li a {
+    padding: 10px;
+}
+
+button {
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    font-size: 8px;
+    font-weight: bold;
+}
+
+hr {
+    height: 10px;
+    color: #E05D5D;
+    opacity: 1;
+    border-radius: 15px;
+}
+
+#merchant {
+    width: 75%;
+    float: left;
+}
+
+#merchant #copy {
+    font-weight: 600;
+    display: initial;
+    color: #4d8ee1;
+}
+
+#merchant #fyt {
+    font-weight: bold;
+    display: initial;
+    text-align: right;
+}
+
+#merchant a {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#merchant #copy a {
+    color: #E05D5D;
+    text-decoration-line: none;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -200%;
+    margin-left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: -25%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+button {
+    border: transparent;
+    border-radius: 10px;
+    background: black;
+    color: white;
+    outline: none;
+    padding: 5px 12px;
+}
+
+.barcode {
+    font-weight: 900;
+    padding: 0 30px;
+    animation: color-change 1s infinite;
+    text-decoration: none;
+}
+
+.note {
+    width: auto;
+    background: #E05D5D;
+    position: unset;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    background-image: url("../images/unlem.png");
+    background-size: 75px;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: left;
+}
+
+.icons img {
+    width: 50px;
+    margin-left: 10px;
+    background: white;
+    box-shadow: 0px 0px 13px #0000005c;
+    border-radius: 25px;
+    padding: 2px;
+    float: right;
+    margin-right: 30px;
+    transition: all .2s ease-in-out;
+}
+
+.icons img:hover {
+    width: 60px;
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+
+.socialicons {
+    float: left;
+    width: 100%;
+    margin: 15px;
+}
+
+.socialiconsright {
+    float: right;
+}
+
+@keyframes color-change {
+    0% {
+        color: #E05D5D;
+    }
+
+    50% {
+        color: #212529;
+    }
+
+    100% {
+        color: #E05D5D;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #212529;
+    border-radius: 15px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #E05D5D;
+}
+
+.patreon:hover {
+    transform: scale(1.1)
+}
+
+#copy1 span {
+    border-radius: 6px;
+    border: solid 1px #999999;
+    font-size: 13px;
+    color: #333;
+    background: white;
+    padding: 5px 10px 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+}
+
+#puan {
+    color: white;
+    font-size: 12px;
+    background-color: rgb(11, 193, 92);
+    padding: 0 5px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 16px;
+    border-radius: 3px;
+}
