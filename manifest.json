@@ -1,6 +1,6 @@
 {
 	"name" : "Trendyol Barcode",
-	"version" : "1.5.1",
+	"version" : "1.5.3",
 	"manifest_version":2,
 	"description":"Trendyol'daki ürünlerin barkodlarına kolaylıkla ulaşabileceğiniz bir uzantıdır.",
 	"icons" : {
